@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="public/styles/styles.css">
+    <title>What's The Weather??</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>What's The Weather??</h1>
+
+        <h3>The current weather is:</h3>
+        <p>
+            <%= weather.weather[0].main%>
+        </p>
+        <h3>The current temperature is:</h3>
+        <p>
+            <%= weather.main.temp%> ºC
+        </p>
+
+    </div>
+</body>
+
+</html>
